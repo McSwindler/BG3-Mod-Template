@@ -67,7 +67,7 @@
                 "reevaluateOnRerun": false,
                 "instanceLimit": 1
             },
-            "detail": "Converts all Localization xml files, using lslib's CLI interface, divine.exe.",
+            "detail": "Increments the build number version meta.lsx",
             "problemMatcher": [],
             "group": {
                 "kind": "build"
@@ -88,10 +88,11 @@
                 "reevaluateOnRerun": false,
                 "instanceLimit": 1
             },
-            "detail": "Converts all Localization xml files, using lslib's CLI interface, divine.exe.",
+            "detail": "Increments the given version category in meta.lsx",
             "problemMatcher": [],
             "group": {
-                "kind": "build"
+                "kind": "build",
+                "isDefault": true
             }
         },
         {
