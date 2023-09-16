@@ -6,6 +6,7 @@ A template Repo for bootstrapping a new mod in VSCode. Uses Powershell scripts t
 1. Clone your new repo into your workspace
 1. Open in Visual Studio Code
 1. Run the task 'Rename Mod'
+1. Edit `.vscode/settings.json` to point to LSLib's divine.exe (`bg3.lslib.path`)
 
 ## Available Tasks
 ### Create Pak
