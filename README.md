@@ -10,6 +10,9 @@ A template Repo for bootstrapping a new mod in VSCode. Uses Powershell scripts t
 ## Available Tasks
 ### Create Pak
 This task will compile and package your mod into the `Build` directory. It will also increment the build number version in the `meta.lsx` file.
+
+The `Source` directory is considered the root of the pak, anything inside of this directory will be packaged.
+
 Currently, this step will only convert your Localization files. Other file types like `.lsx` will need to be compiled manually for now.
 
 ### Convert Localization Files
